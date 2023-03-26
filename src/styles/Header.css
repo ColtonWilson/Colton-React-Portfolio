@@ -1,13 +1,83 @@
+:root {
+  --border: 3px;
+  --color1: #6be89b;
+  --color2: #0076a5;
+  --from: 30deg;
+  --distance: 46%;
+}
+
 .header {
-  background: #f9b713;
-  height: 200px;
+  background: #707d9b;
+  height: 350px;
 }
 
 .header h1 {
   margin: 0;
   padding-top: 75px;
   text-align: center;
-  color: white;
   font-size: 3rem;
+}
+
+.photo_div{
+    height: 300px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.container {
+  position: relative;
+  padding: 30px;
+  height: 300px;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container::after {
+  content: '';
+  border-radius: 999px;
+  display: block;
+  position: relative;
+  margin-left: 60px;
+  margin-top: -67px;
+  top: 0;
+  left: 0;
+  height: 55%;
+  width: 55%;
+  background: conic-gradient(
+    from var(--from),
+    var(--color1),
+    var(--color2) var(--distance),
+    transparent var(--distance)
+  );
+  -webkit-mask: radial-gradient(
+    farthest-side,
+    transparent calc(100% - var(--border)),
+    #fff calc(100% - var(--border) + 1px)
+  );
+  mask: radial-gradient(
+    farthest-side,
+    transparent calc(100% - var(--border)),
+    #fff calc(100% - var(--border) + 1px)
+  );
+}
+
+img{
+
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  position: relative;
+  top: 25%;
+
+  
+}
+
+.name{
+  position: relative;
+  top: -135px;
+  color:#7cf6fd;
 }
 
