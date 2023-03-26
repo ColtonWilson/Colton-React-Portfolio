@@ -4,9 +4,16 @@ import React from 'react';
 
 function PageContent() {
   return (
-    <header className="header">
-      <h1>PageContent</h1>
-    </header>
+<div
+      style={{
+        display: 'flex',
+        justifyContent: 'Right',
+        alignItems: 'Right',
+        height: '100vh'
+      }}
+    >
+      <h1>This is the PageContent Page</h1>
+    </div>
   );
 }
 

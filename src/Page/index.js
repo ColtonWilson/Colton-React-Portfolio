@@ -7,6 +7,8 @@ import Contact from '../components/contact.js';
 import Resume from '../components/resume.js';
 import {capitalizeFirstLetter} from '../utils/helpers.js';
 
+
+
 function Page({ currentPage }) {
     const renderPage = () => {
         switch(currentPage.name){

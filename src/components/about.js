@@ -4,9 +4,16 @@ import React from 'react';
 
 function About() {
   return (
-    <header className="header">
-      <h1>About</h1>
-    </header>
+<div
+      style={{
+        display: 'flex',
+        justifyContent: 'Right',
+        alignItems: 'Right',
+        height: '100vh'
+      }}
+    >
+      <h1>This is the About Page</h1>
+    </div>
   );
 }
 
