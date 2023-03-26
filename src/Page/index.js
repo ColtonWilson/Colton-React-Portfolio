@@ -1,11 +1,11 @@
 //Layout skeleton code provided in class
 import React from 'react';
-import PageContent from '../components/pagecontent';
-import About from '../components/about';
-import Portfolio from '../components/portfolio';
-import Contact from '../components/contact';
-import Resume from '../components/resume';
-import {capitalizeFirstLetter} from '../utils/helpers';
+import PageContent from '../components/pagecontent.js';
+import About from '../components/about.js';
+import Portfolio from '../components/portfolio.js';
+import Contact from '../components/contact.js';
+import Resume from '../components/resume.js';
+import {capitalizeFirstLetter} from '../utils/helpers.js';
 
 function Page({ currentPage }) {
     const renderPage = () => {

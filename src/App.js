@@ -1,9 +1,9 @@
 //Layout skeleton code provided in class
 import React, { useState } from "react";
-import Header from "./components/header";
-import Nav from "./components/nav";
-import Page from "./Page/index";
-import Footer from "./components/footer";
+import Header from "./components/header.js";
+import Nav from "./components/nav.js";
+import Page from "./Page/index.js";
+import Footer from "./components/footer.js";
 
 function App() {
   const [pages] = useState([
@@ -24,9 +24,9 @@ return(
   <div>
     <Header>
       <Nav
-      pages={pages}
-      setCurrentPage={setCurrentPage}
-      currentPage={currentPage}
+          pages={pages}
+          setCurrentPage={setCurrentPage}
+          currentPage={currentPage}
       ></Nav>
     </Header>
     <main>
