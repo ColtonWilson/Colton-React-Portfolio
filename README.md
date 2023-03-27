@@ -10,19 +10,21 @@
 7. [Questions](#questions)
 
 ## Description
-A text editor using Progressive Web Applications to run in the browser or the user. 
+Personal Portfolio uing React
 ## Installation
-Note: Lots of installation issues to get code on Github. Not recommended for use as has many bugs.   
-Link to application found [HERE](https://pwa-text-editor-colton.herokuapp.com/)   
-Note: Does not work correctly could only get to work on localhost 
-![Screenshot of working in localhost](https://github.com/ColtonWilson/Progressive-Web-Applications-PWA---Text-Editor/blob/main/Screenshot%202023-03-18%20112245.png)
+Link to application found [HERE]()   
+![Screenshot of working in localhost]()  
+
 Copy Https from code and use in terminal:  
-`git clone https://github.com/ColtonWilson/Progressive-Web-Applications-PWA---Text-Editor.git`
+`git clone https://github.com/ColtonWilson/Colton-React-Portfolio.git`
 
 install package.json from command terminal:  
 `npm i`
+
+To start the program:  
+`npm start`
 ## Usage
-Not recommended for use. 
+To get started with a portfolio uing React
 ## Contributing
 Not complete
 ## Tests
