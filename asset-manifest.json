@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/ColtonWilson/Colton-React-Portfolio/static/css/main.e71cd9e6.css",
+    "main.js": "/ColtonWilson/Colton-React-Portfolio/static/js/main.e033a7c3.js",
+    "static/media/smallsnake.jpeg": "/ColtonWilson/Colton-React-Portfolio/static/media/smallsnake.4f3463f4daa4265a3583.jpeg",
+    "index.html": "/ColtonWilson/Colton-React-Portfolio/index.html",
+    "main.e71cd9e6.css.map": "/ColtonWilson/Colton-React-Portfolio/static/css/main.e71cd9e6.css.map",
+    "main.e033a7c3.js.map": "/ColtonWilson/Colton-React-Portfolio/static/js/main.e033a7c3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e71cd9e6.css",
+    "static/js/main.e033a7c3.js"
+  ]
+}
